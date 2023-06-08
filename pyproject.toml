@@ -15,6 +15,9 @@ types-pyyaml = "^6.0.12.10"
 types-beautifulsoup4 = "^4.12.0.5"
 ipykernel = "^6.23.1"
 
+[tool.poetry.scripts]
+yambook = "yambook.cli:main"
+
 [tool.mypy]
 python_version = "3.10"
 python_executable = "./.venv/Scripts/python.exe"
