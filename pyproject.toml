@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "yambook"
+version = "0.1.0"
+description = "Converts an yaml file with bookmark data to a bookmark html file that can be imported in Firefox, Chrome and Internet explorer."
+authors = ["Nick Muoh <nick_muoh@trimble.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyyaml = "^6.0"
+beautifulsoup4 = "^4.12.2"
+
+[tool.poetry.group.dev.dependencies]
+types-pyyaml = "^6.0.12.10"
+types-beautifulsoup4 = "^4.12.0.5"
+ipykernel = "^6.23.1"
+
+[tool.mypy]
+python_version = "3.10"
+python_executable = "./.venv/Scripts/python.exe"
+
+[tool.black]
+line-length = 88
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
