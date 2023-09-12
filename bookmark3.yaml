@@ -1,0 +1,61 @@
+---
+- folder: Bookmarks 1
+  bookmarks:
+  - title: Google
+    url: https://www.google.com
+  - folder: Wikipedia
+    bookmarks:
+    - title: Wikipedia English Home
+      url: https://en.wikipedia.org/
+    - title: Wiki Buthan
+      url: https://en.wikipedia.org/wiki/Bhutan
+    - title: Nepal
+      url: https://en.wikipedia.org/wiki/Nepal
+      description: A country in the Himalayas
+    - folder: Travel
+      bookmarks:
+      - title: Lonely Planet
+        url: https://www.lonelyplanet.com/
+      - title: TripAdvisor
+        url: https://www.tripadvisor.com/
+  - title: Youtube
+    url: https://www.youtube.com
+    description: Online video sharing platform
+  - folder: News
+    bookmarks:
+    - title: BBC News
+      url: https://www.bbc.com/news
+    - title: CNN
+      url: https://edition.cnn.com/
+    - title: The New York Times
+      url: https://www.nytimes.com/
+- folder: Bookmarks 2
+  bookmarks:
+  - folder: Shopping
+    bookmarks:
+    - folder: Electronics
+      bookmarks:
+      - title: Newegg
+        url: https://www.newegg.com/
+      - title: Best Buy
+        url: https://www.bestbuy.com/
+    - folder: Fashion
+      bookmarks:
+      - title: Zara
+        url: https://www.zara.com/
+      - title: H&M
+        url: https://www2.hm.com/
+    - folder: Home Decor
+      bookmarks:
+      - title: IKEA
+        url: https://www.ikea.com/
+      - title: Wayfair
+        url: https://www.wayfair.com/
+  - folder: Social Media
+    bookmarks:
+    - title: Facebook
+      url: https://www.facebook.com/
+    - title: Twitter
+      url: https://twitter.com/
+    - title: Instagram
+      url: https://www.instagram.com/
